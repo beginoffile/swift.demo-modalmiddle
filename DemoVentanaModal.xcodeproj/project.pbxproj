@@ -13,6 +13,7 @@
 		05BAEBD82B951A7500A6E654 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 05BAEBD62B951A7500A6E654 /* Main.storyboard */; };
 		05BAEBDA2B951A7700A6E654 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 05BAEBD92B951A7700A6E654 /* Assets.xcassets */; };
 		05BAEBDD2B951A7700A6E654 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 05BAEBDB2B951A7700A6E654 /* LaunchScreen.storyboard */; };
+		05BAEBE52B951AD600A6E654 /* ModalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05BAEBE42B951AD600A6E654 /* ModalViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		05BAEBD92B951A7700A6E654 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		05BAEBDC2B951A7700A6E654 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		05BAEBDE2B951A7700A6E654 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		05BAEBE42B951AD600A6E654 /* ModalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModalViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				05BAEBD92B951A7700A6E654 /* Assets.xcassets */,
 				05BAEBDB2B951A7700A6E654 /* LaunchScreen.storyboard */,
 				05BAEBDE2B951A7700A6E654 /* Info.plist */,
+				05BAEBE42B951AD600A6E654 /* ModalViewController.swift */,
 			);
 			path = DemoVentanaModal;
 			sourceTree = "<group>";
@@ -138,6 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				05BAEBE52B951AD600A6E654 /* ModalViewController.swift in Sources */,
 				05BAEBD52B951A7500A6E654 /* ViewController.swift in Sources */,
 				05BAEBD12B951A7500A6E654 /* AppDelegate.swift in Sources */,
 				05BAEBD32B951A7500A6E654 /* SceneDelegate.swift in Sources */,
